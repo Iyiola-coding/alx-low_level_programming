@@ -5,7 +5,7 @@
  * main - Starting point
  *
  * Return: Each time: 0.
-*/
+ */
 int main(void)
 {
         int n;
@@ -24,5 +24,5 @@ int main(void)
 	{
                 printf("%d is %s\n", n, "zero");
 	}
-        return (0);
+	return (0);
 }
