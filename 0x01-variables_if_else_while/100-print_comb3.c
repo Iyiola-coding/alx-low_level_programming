@@ -32,6 +32,7 @@ int main(void)
 			k++;
 		}
 		k = '0';
+		h++;
 	}
 return (0);
 }
