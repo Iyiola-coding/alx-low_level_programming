@@ -2,7 +2,7 @@
 
 /**
  * print_diagonal - draws a diagonal line in the terminal
- * @n: inpute integer
+ * @n: number of inputes
  */
 
 void print_diagonal(int n)
