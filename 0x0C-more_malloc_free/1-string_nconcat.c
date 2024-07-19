@@ -3,9 +3,11 @@
 
 /**
  * string_nconcat - concatenates two strings
+ *
  * @s1: string one
  * @s2: string two
  * @n: no of element to concatenate from s2
+ *
  * Return: pointer to the new allocated memory
  */
 
