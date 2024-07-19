@@ -2,7 +2,8 @@
 #include <stdlib.h>
 
 /**
- * string_nconcat - concatenates two strings
+ * string_nconcat - concatenates two strings while
+ * second string ia an n value
  *
  * @s1: string one
  * @s2: string two
@@ -10,7 +11,6 @@
  *
  * Return: pointer to the new allocated memory
  */
-
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	size_t i, j, k;
