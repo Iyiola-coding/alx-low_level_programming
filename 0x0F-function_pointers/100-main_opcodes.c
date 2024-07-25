@@ -12,7 +12,7 @@
 int main(int argc, char *argv[])
 {
 	int bytes, i;
-	char *arr;
+	char *mar;
 
 	if (argc != 2)
 	{
@@ -28,16 +28,16 @@ int main(int argc, char *argv[])
 		exit(2);
 	}
 
-	arr = (char *)main;
+	mar = (char *)main;
 
 	for (i = 0; i < bytes; i++)
 	{
 		if (i == bytes - 1)
 		{
-			printf("%02hhx\n", arr[i]);
+			printf("%02hhx\n", mar[i]);
 			break;
 		}
-		printf("%02hhx ", arr[i]);
+		printf("%02hhx ", mar[i]);
 	}
 	return (0);
 }
